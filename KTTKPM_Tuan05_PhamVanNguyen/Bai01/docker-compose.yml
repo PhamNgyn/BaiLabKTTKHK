@@ -1,0 +1,6 @@
+name: exercise-1-nginx
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80" # Máy host cổng 8080 : Container cổng 80
